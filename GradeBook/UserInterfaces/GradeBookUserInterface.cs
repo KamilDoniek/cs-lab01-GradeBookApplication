@@ -157,7 +157,7 @@ namespace GradeBook.UserInterfaces
             Console.WriteLine();
             Console.WriteLine("While a gradebook is open you can use the following commands:");
             Console.WriteLine();
-            Console.WriteLine("Add 'Name' 'Student Type' 'Enrollment Type' - Adds a new student to the gradebook with the provided name, type of student, and type of enrollment.");
+            Console.WriteLine("Create 'Name' 'Type' 'Weighted' - Creates a new gradebook where 'Name' is the name of the gradebook, 'Type' is what type of grading it should use, and 'Weighted' is whether or not grades should be weighted (true or false)");
             Console.WriteLine();
             Console.WriteLine("Accepted Student Types:");
             Console.WriteLine("Standard - Student not enrolled in Honors classes or Dual Enrolled.");
